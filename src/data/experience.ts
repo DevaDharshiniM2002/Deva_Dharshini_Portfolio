@@ -1,0 +1,56 @@
+import { ExperienceRecord } from '../types';
+
+export const experienceData: ExperienceRecord[] = [
+  {
+    id: 'reccsar-python',
+    role: 'SOFTWARE DEVELOPMENT USING PYTHON INTERN',
+    company: 'Reccsar Pvt. Ltd.',
+    location: 'Virtual',
+    duration: '6 Months',
+    period: 'January 2026 — June 2026',
+    type: 'Professional Internship',
+    responsibilities: [
+      'Worked on software development using Python, focusing on programming fundamentals and application logic.',
+      'Built and tested Python-based application modules following structured development workflows.',
+      'Collaborated on documentation of code logic, module interfaces, and development processes.',
+      'Applied best practices in code organization, version control, and iterative development cycles.',
+    ],
+    skills: ['Python', 'Software Development', 'Application Logic', 'Git', 'Documentation'],
+    highlightMetric: 'Python Software Development Workflows',
+  },
+  {
+    id: 'jyesta-ml',
+    role: 'MACHINE LEARNING INTERN',
+    company: 'Jyesta Corporate Entity',
+    location: 'Virtual',
+    duration: '2 Months',
+    period: 'February 2026 — April 2026',
+    type: 'Professional Internship',
+    responsibilities: [
+      'Explored machine learning concepts and practical model-development workflows end-to-end.',
+      'Performed data preparation, feature engineering, and preprocessing on structured datasets.',
+      'Trained and evaluated supervised learning models using standard ML pipelines.',
+      'Documented model performance metrics, evaluation results, and parameter trade-offs.',
+    ],
+    skills: ['Python', 'Machine Learning', 'Scikit-learn', 'Data Preprocessing', 'Model Evaluation'],
+    highlightMetric: 'ML Model Development & Evaluation Pipelines',
+  },
+  {
+    id: 'assure-analytics',
+    role: 'DATA ANALYTICS INTERN',
+    company: 'Assure eServices',
+    location: 'Virtual',
+    duration: '2 Months',
+    period: 'December 2025 — January 2026',
+    type: 'Professional Internship',
+    responsibilities: [
+      'Conducted Exploratory Data Analysis (EDA) on real-world operational and business datasets.',
+      'Identified critical trends, seasonal patterns, and actionable business insights for decision-making.',
+      'Performed rigorous data cleaning, schema transformation, and missing value imputation.',
+      'Created multi-dimensional data visualizations and interactive executive dashboards using Power BI.',
+      'Employed Python data stack (Pandas, NumPy, Matplotlib) and Advanced Microsoft Excel.',
+    ],
+    skills: ['Python', 'Data Analytics', 'Power BI', 'Advanced Excel', 'EDA', 'Data Cleaning', 'Pandas'],
+    highlightMetric: 'Actionable Business Visualizations & Automated Cleaning Pipelines',
+  },
+];
